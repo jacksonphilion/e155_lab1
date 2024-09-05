@@ -1,3 +1,14 @@
+/*
+Jackson Philion, Sep.5.2024, jphilion@g.hmc.edu. Harvey Mudd College for E155: Microprocessors, taught by Prof Josh Brake.
+
+The following code is used to run a 7 segment display with an FPGA. It is intended
+to take in 4 switch inputs and output two things. Firstly, a string of 3 LEDs that
+do xor and and functions on the inputs and has an extra one that runs at 2.4 Hz off
+of the internal high speed oscillator (48MHz HSOSC). Secondly, signals to the 7
+segments of the display, which light up all 16 hex numbers which are expressable by
+a 4 bit binary number.
+*/
+
 module top(
 input logic reset,
 input logic [3:0]   s,
