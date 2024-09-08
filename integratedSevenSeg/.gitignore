@@ -1,7 +1,6 @@
 # Lattice Radiant files
 *.html
 /impl*/
-/source/impl_?.xcf
 *.xml
 .build_status
 .run_manager.ini
@@ -17,3 +16,13 @@ promote.*
 *.srp
 *.dmp
 ._Real_._Math_.vhd
+.vdbs/
+incr/
+*.pad
+*.par
+*.udb
+*_impl_?_*
+*_impl_?.*
+*.synthesis_touch
+ipsdclist.txt
+*.ini
