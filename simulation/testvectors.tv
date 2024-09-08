@@ -1,0 +1,15 @@
+// testvectors.tv
+// This file pairs with simulation.sv, a spin off of
+// sevenSegFPGA.sv, which encodes a seven segment display
+// for use in E155: Microprocessors, a class taught at
+// Harvey Mudd College by Prof Josh Brake.
+
+// Created by Jackson Philion on Sep.5.2024
+// jphilion@g.hmc.edu
+
+// Order Read Out By Simulation.sv
+// input s[3:0], the expected outputs seg[6:0]  led[1:0]
+// SsegsegsLL
+0000000000100
+0000000000100
+0000000000100
