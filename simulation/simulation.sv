@@ -1,7 +1,22 @@
 /*
 Jackson Philion, Sep.5.2024, jphilion@g.hmc.edu. Code to run a 7 segment display with an FPGA,
 at Harvey Mudd College for E155: Microprocessors, taught by Prof Josh Brake.
+
+Refer to top.sv under sevenSegFPGA folder for the original draft.
+This code includes the beginnings of a test bench, which is currently non-operational.
+I could not get the test vectors to read in properly, so s remained floating.
+
+I just realized, at 6:55am on Sep.5.2024 after being up all night, that the
+test vector file had a hidden .txt extension on Windows that is now visible 
+on MacOS. I believe that a run of the test bench may result in an accurate
+first 10ps of simulation, afterwards the file will run out of test vectors.
+
+Finally, note that I plan to come back through this code on Sep.6.2024 to separate
+out some modules from the Top module. This will be helpful for lab 2. I will update
+this title block if I do so.
+-JP
 */
+
 module top(
 input logic clk,
 input logic reset,
